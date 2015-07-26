@@ -1,0 +1,28 @@
+.bottom-footer{
+	position:fixed;
+	z-index:100;
+	bottom:0;
+	left:0;
+	width:100%;
+	margin-bottom: 0;
+	text-align:center;
+	filter: alpha(opacity=90); /* internet explorer */
+    -khtml-opacity: 0.9;      /* khtml, old safari */
+    -moz-opacity: 0.9;       /* mozilla, netscape */
+    opacity: 0.9;           /* fx, safari, opera */
+	color: black;
+	background-color: whitesmoke;
+}
+.msg_box
+{
+	z-index:100;
+	border:5px outset red;
+	display: inline-block;
+	padding: 30px 100px;
+	position:relative;
+	left:35%;
+	right:35%;
+	margin: 50px auto 50px;
+	text-align:center;
+	
+}

@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Map domain to webroot
+RewriteRule ^$ /web/ [L]

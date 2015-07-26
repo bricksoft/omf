@@ -1,0 +1,7 @@
+{
+	"logfolder":"$__src__log__",
+	"logfile":"error.log",
+	"save_notice":false,
+	"show_notice":true,
+	"show_error":true
+}

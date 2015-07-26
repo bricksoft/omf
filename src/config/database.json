@@ -1,0 +1,9 @@
+{
+	"type":"mysql",
+	"host":"localhost",
+	"database":"test",
+	"user":"root",
+	"password":"mysqlpw",
+	"charset":"utf8",
+	"logfile":"$__src__log__database.log"
+}

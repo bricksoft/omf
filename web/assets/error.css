@@ -1,0 +1,12 @@
+.msg_box
+{
+	border:5px outset red;
+	display: inline-block;
+	padding: 30px 100px;
+	position:relative;
+	left:35%;
+	right:35%;
+	margin: 50px auto 50px;
+	text-align:center;
+}
+	

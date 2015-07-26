@@ -1,0 +1,7 @@
+{
+    "template_extention" : ".tpl",
+    "template_dir" : "$__src__view__templates__",
+    "leftDelimiter" : "\\{",
+    "rightDelimiter" : "\\}"
+    
+}

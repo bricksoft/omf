@@ -1,0 +1,15 @@
+{
+	"logfile":"$__src__log__app.log",
+	"project_name":"OOP MVC-Framework",
+	"interfaces":{
+		"database" : [
+			"App\\Interfaces\\Database\\mysql",
+			"App\\Interfaces\\Database\\pdo"
+		]
+	},
+	"handlers":{
+		"view" : [
+			"\\App\\handlers\\view"
+		]
+	}
+}
