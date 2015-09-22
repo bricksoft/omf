@@ -1,0 +1,14 @@
+{
+	"SMTPAuth":false,
+	"Host":"localhost",
+	"Port":"25",
+	"Username":"jayjay",
+	"Password":".9dfxS8m",
+	"logfile":"$__src__log__mail.log",
+	"Sender":
+	{
+	    "name":"OMF Framework",
+	    "address":"mail@poyopaya.koding.io"
+	}
+	
+}

@@ -1,0 +1,16 @@
+{
+    "message": "You did not accept our ToS :(",
+    "title": "Terms of Service",
+    "buttons": {
+        "abort": {
+            "label": "Cancel",
+            "className": "btn-danger",
+            "callback": null
+        },
+        "retry": {
+            "label": "Retry",
+            "className": "btn-success",
+            "callback": null
+        }
+    }
+}
