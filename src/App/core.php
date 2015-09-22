@@ -48,7 +48,8 @@
 			if (isset($override) && is_array($override)){
 				$this->router->add($override);
 			}
-			$this->router->dispatch($this->uri[3]);
+			$r = (isset($this->uri[2]))?$this->uri[2]:null;
+			$this->router->dispatch($this->uri[1],$r);
 		}
 	}
 ?>

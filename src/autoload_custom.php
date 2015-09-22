@@ -37,5 +37,6 @@
     define("ds", DIRECTORY_SEPARATOR);
     
     //registering autoloaders
+    require dirname(__DIR__).ds.'vendor'.ds.'autoload.php';
     autoload_custom::register();  
 ?>

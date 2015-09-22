@@ -1,12 +1,13 @@
 {#_ start of global head template #}
 <html>
-<head>
+<head
+<meta name="google-site-verification" content="P3GnnI_kp0fST5BtLZ9gr5NewRPPTEJun9xr_L3lpxE" />
 <title>{$project_name$}</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<link rel="stylesheet" href="/testing/web/assets/main.css">
-<!-- Bootstrap core JavaScript -->
+<link rel="stylesheet" href="{$project_uri$}assets/main.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="{$project_uri$}assets/siteJS/common.js"></script>
+<script src="{$project_uri$}assets/siteJS/bootbox.min.js"></script>
 </head>
 <div class="container">
 <!-- Static navbar -->
@@ -28,22 +29,13 @@
               <li id="about"><a href="{$project_uri$}about">About</a></li>
               <li id="contact"><a href="{$project_uri$}contact">Contact</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Useractions<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
+                  <li class="dropdown-header">OMF Features</li>
                   <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
+                  <li><a id="dlstart" href="#">Download-Tester</a></li>
                 </ul>
               </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Default</a></li>
-              <li><a href="#">Static top</a></li>
-              <li><a href="#">Fixed top</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->

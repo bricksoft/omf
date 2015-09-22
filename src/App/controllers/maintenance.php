@@ -17,7 +17,7 @@
 					"echo"				=> array("echo",false),
 					"include_template"	=> array("include_template",true)
 					));
-					
+			header("Access-Control-Allow-Origin: *");		
 			$app->view->render("maintenance");
 		}
 	}

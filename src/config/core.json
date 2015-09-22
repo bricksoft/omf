@@ -5,6 +5,9 @@
 		"database" : [
 			"App\\Interfaces\\Database\\mysql",
 			"App\\Interfaces\\Database\\pdo"
+		],
+		"mail" : [
+			"App\\Interfaces\\Mail\\smtphp"
 		]
 	},
 	"handlers":{

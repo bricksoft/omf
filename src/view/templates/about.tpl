@@ -1,9 +1,16 @@
 {% include_template "global_head" %}
 {#_ start of index template #}
 <div class="jumbotron">
-<h1>Navbar example</h1>
-<p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-<p><a class="btn btn-lg btn-primary" href="#" role="button">View navbar docs &raquo;</a></p>
+<h1>About this Framework</h1>
+<p>This Framework is designed to be smart and performant.</p>
+<p>We use current-generation technologies to get the best out of php and javascript.
+    <ul type="square">
+        <li>JSON as configuration fileformat</li>
+        <li>completely OOP: this MVC is module-based (like laravel) but less heavy and more developer-friendly</li>
+        <li>We use open-source modules!</li>
+        <li>You are free to <a href="/contact/contribute">contribute</a>!</li>
+    </ul>
+</p>
 </div>
 {#_ end of index template #}
 {% include_template "global_body" %}

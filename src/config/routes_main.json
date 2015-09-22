@@ -2,7 +2,7 @@
 	"routes":[
 		{"home":"\\App\\controllers\\standard"},
 		{"about":"\\App\\controllers\\standard"},
-		{"contact":"\\App\\controllers\\standard"},
+		{"contact":"\\App\\controllers\\contact"},
 		{"maintenance":"\\App\\controllers\\maintenance"}
 	]
 }

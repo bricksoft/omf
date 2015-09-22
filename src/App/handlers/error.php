@@ -16,9 +16,8 @@
 					$this->config->logfolder.$this->config->logfile,
 					"\"$header\" - \"$message\"".PHP_EOL,
 					FILE_APPEND)
-					? ($type == "notice" && $this->config->show_notice)||$this->config->show_error
-						? print("There was an error.
-							It was printed to the error-Log.")
+					? ($type == "notice" && $this->config->show_notice)&&$type != "user"||$this->config->show_error&&$type != "user"
+						? print("There was an error. It was printed to the error-Log.")
 						: null
 					: die("There was a serious error,which was caused by getting an include-error by then getting a log-error![HES DEAD!]");
 			}
@@ -28,6 +27,9 @@
 	
 				case "notice":
 					$this->config->show_notice?print("The error was a(n) $type."):null;break;
+				
+				case "user":
+				    break;
 				
 				default:
 					$this->config->show_error

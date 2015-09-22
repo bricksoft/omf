@@ -15,7 +15,7 @@
 			$app = \App\core::get_instance();
 			if ($this->maintenance){
 				$req = (empty($req))
-					?"home"
+					?'home'
 					:$req;
 				if(isset($this->overrides[$req])){
 					$app->controller = new $this->overrides[$req]($req);
@@ -24,7 +24,7 @@
 				}			
 			} else {
 				$req = (empty($req))
-					?"home"
+					?'home'
 					:$req;
 				foreach ($this->config->routes as $ref){
 					if (isset($ref->$req)){
@@ -34,7 +34,7 @@
 						}		
 					}
 				}
-				$app->controller = new \App\controllers\standard('404 - Page not found');
+				$app->controller = new \App\controllers\standard('404');
 			}
 		}
 		public function add($route){
