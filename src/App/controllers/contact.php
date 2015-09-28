@@ -100,14 +100,14 @@ class contact
 			$message  = str_replace('$copy$', 'Copyright (C)' . date('Y') . ' OMF Framework', $message);
 			
 			// send email to user
-			$app->mail->send(null, [
+		/*	$app->mail->send(null, [
 			    
 				"address" => $data['email'],
 				
 				"name" => $data['name']
 			
 			], "Your Support-Request", $message);
-			
+		*/	
 			
 			// create new (silent) error / log error in file
 			new \App\handlers\error("user", "User-Report", "Ref: " . $data['status'][0] . "|Type: " . $data['status'][1]);

@@ -37,6 +37,8 @@
     define("ds", DIRECTORY_SEPARATOR);
     
     //registering autoloaders
-    require dirname(__DIR__).ds.'vendor'.ds.'autoload.php';
+    if (is_dir(dirname(__DIR__).ds.'vendor')){ // if vendor-directory exists try to require vendor autoloader
+        require dirname(__DIR__).ds.'vendor'.ds.'autoload.php';
+    }
     autoload_custom::register();  
 ?>
