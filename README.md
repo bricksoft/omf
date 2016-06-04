@@ -1,18 +1,30 @@
-# Awesome, you've just made a new workspace!
-Workspaces are fantastic for organizing your work. This new workspace, which lives inside the 'Workspaces' folder of your home
-directory, is a place where you can store all relevant and related files to a particular project. For example, if you
-are working on multiple projects, its nice to have them separated as follows:
--|home dir
-   -|Workspaces
-    -| Project 1
-    -| Project 2
-    -| Project 3
+OMF - OOP PHP MVC Framework
+===========================
 
-Workspaces help keep your projects organized. You can create any number of workspaces. There are no limits.
+A custom framework for custom scenarios.
 
-Note: A workspace folder is just a regular folder so you can create any number of files and folders inside it.
+This framework has several advantages:
+ - lightweight
+ - oop
+ - modular
+ - uses composer
 
-As you move back and forth between your workspaces, Koding will remember everything about each workspace. This includes things
-like IDE settings, files open, Terminals open, etc.
+Also it has cool features:
 
-Enjoy and Happy Koding!
+ - configuration takes place in json files
+ - class files are configured automatically by superclass
+ - autoloading by namespace + autoloading for thirdparty modules
+ - weblayouts are using twig as template engine
+ - function restriction for views [[1](#1)]
+
+What you might need to know
+---------------------------
+
+This Framework is still in development and needs several reworks.
+If you need a function and think it might make this framework better,
+then let us know!
+As this framework needs a workover, you might want to fork it to help us to improve it.
+
+This framework is realeased under APACHE COMMON CTL License.
+For more Details you can read the License in the `LICENSE` file.
+
