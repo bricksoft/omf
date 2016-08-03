@@ -1,4 +1,4 @@
-OMF - OOP PHP MVC Framework
+OMF - OOP PHP MVC Mail Framework
 ===========================
 
 A custom framework for custom scenarios.
